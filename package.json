@@ -1,0 +1,21 @@
+{
+  "name": "tslint-rules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslint": "^5.8.0",
+    "tsutils": "^2.12.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.25",
+    "tslint-eslint-rules": "^4.1.1",
+    "typescript": "^2.5.3"
+  }
+}

@@ -1,0 +1,86 @@
+{
+    "linterOptions": {
+        "typeCheck": true
+    },
+    "rulesDirectory": ["rules/"],
+    "rules": {
+        "button-must-handle-click": true,
+        "compatibility-check": true,
+        "concat-left-need": true,
+        "class-name": true,
+        "curly": true,
+        "eofline": true,
+        "indent": [
+            true,
+            "tabs"
+        ],
+        "member-ordering": [
+            true,
+            "static-before-instance",
+            "variables-before-functions"
+        ],
+        "no-conditional-assignment": true,
+        "no-console": [
+            false,
+            "log"
+        ],
+        "no-duplicate-variable": true,
+        "no-empty": true,
+        "no-eval": true,
+        "no-shadowed-variable": true,
+        "no-switch-case-fall-through": true,
+        "no-trailing-whitespace": true,
+        "no-unused-expression": true,
+        "no-unused-new": false,
+        "no-unused-variable": [
+            true,
+            "check-parameters",
+            "react"
+        ],
+        "no-use-before-declare": false,
+        "no-var-keyword": false,
+        "object-literal-sort-keys": false,
+        "one-variable-per-declaration": true,
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "triple-equals": true,
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            },
+            {
+                "call-signature": "onespace",
+                "index-signature": "onespace",
+                "parameter": "onespace",
+                "property-declaration": "onespace",
+                "variable-declaration": "onespace"
+            }
+        ],
+        "variable-name": [
+            true,
+            "check-format",
+            "allow-pascal-case",
+            "allow-leading-underscore",
+            "ban-keywords"
+        ],
+        "whitespace": [
+            true,
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ]
+    }
+}
